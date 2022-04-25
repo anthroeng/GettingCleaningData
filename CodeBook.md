@@ -1,10 +1,9 @@
-The run_analysis.R sript performs the required analysis for the Getting and Cleaning Data Course Project
+# The run_analysis.R sript performs the required analysis for the Getting and Cleaning Data Course Project
 
-Download the dataset
-Dataset downloaded and extracted under the folder called Data
+Download the dataset and extracted it to the folder called Data.
 
-Each dataset was assigned to a variable
-features <- features.txt
+# Each dataset was assigned to a variable
+"features" <- features.txt
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
 activities <- activity_labels.txt List of activities performed when the corresponding measurements were taken and its codes (labels)
 subject_test <- test/subject_test.txt contains test data of 9/30 volunteer test subjects being observed
